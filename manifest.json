@@ -5,7 +5,7 @@
     {
       "src": "/favicon.ico",
       "type": "image/png",
-      "sizes": "256x256"
+      "sizes": "274x274"
     }
   ],
   "id": "/?source=pwa",
@@ -20,7 +20,7 @@
       "short_name": "container_life_cycle",
       "description": "container_life_cycle",
       "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/favicon.ico", "sizes": "256x256" }]
+      "icons": [{ "src": "/favicon.ico", "sizes": "274x274" }]
     }
   ],
   "description": "container_life_cycle",
@@ -28,7 +28,7 @@
     {
       "src": "/favicon.ico",
       "type": "image/png",
-      "sizes": "256x256"
+      "sizes": "274x274"
     }
   ]
 }
