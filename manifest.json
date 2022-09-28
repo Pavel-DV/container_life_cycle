@@ -1,0 +1,34 @@
+{
+  "short_name": "container_life_cycle",
+  "name": "container_life_cycle",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "container_life_cycle",
+      "short_name": "container_life_cycle",
+      "description": "container_life_cycle",
+      "url": "/tomorrow?source=pwa",
+      "icons": [{ "src": "/favicon.ico", "sizes": "256x256" }]
+    }
+  ],
+  "description": "container_life_cycle",
+  "screenshots": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ]
+}
