@@ -56,6 +56,9 @@
             .then(() => {
                 document.writeln('<pre>' + new Date().toLocaleString() + '</pre>')
             })
+            .catch(e => {
+                document.writeln('<pre>' + new Date().toLocaleString() + ' ' + e.stack + '</pre>')
+            });
     }
 
     function fetchAllIds() {
