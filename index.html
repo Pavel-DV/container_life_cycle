@@ -32,15 +32,15 @@
 
     const urlParams = new URLSearchParams(window.location.search);
 
-    const ids = urlParams.getAll('container_id');
-    const user = urlParams.get('user');
-    const pasw = urlParams.get('pasw');
+    const ids = urlParams.get('container_id') ?? '';
+    const user = urlParams.get('user') ?? '';
+    const pasw = urlParams.get('pasw') ?? '';
 
-    document.getElementById('container_id').value = ids.join('\n');
+    document.getElementById('container_id').value = ids;
     document.getElementById('user').value = user;
     document.getElementById('pasw').value = pasw;
 
-    if (ids.length === 0 || user === null || pasw === null) {
+    if (ids === '' || user === '' || pasw === '') {
         throw 'Error: Enter params';
     }
 
@@ -65,7 +65,7 @@
     }
 
     function fetchAllIds() {
-        ids.map(doFetch);
+        ids.split('\r\n').map(doFetch);
     }
 
     setInterval(fetchAllIds, 3600000);
